@@ -27,21 +27,45 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Releases</a>
                             <ul class="dropdown-menu">
-                                <div class="dropdown-header">Development-Version</div>
-                                <li><a class="dropdown-item" href="./arveo/development/index.html">arveo - Content Services Platform</a></li>
-                                <li><a class="dropdown-item" href="./eql/development/index.html">EQL (EITCO Query Language)</a></li>
-                                <li><a class="dropdown-item" href="./audit-service/development/index.html">Audit Service</a></li>
-                                <li><a class="dropdown-item" href="./document-conversion-service/development/index.html">Document Conversion</a></li>
-                                <li><a class="dropdown-item" href="./job-service/development/index.html">Job Service</a></li>
-                                <li><a class="dropdown-item" href="./integration-service/development/index.html">Integration Service</a></li>
+                                <div class="dropdown-header">arveo</div>
+                                <li><a class="dropdown-item" href="./arveo/development/index.html">development version</a></li>
+                                <li><a class="dropdown-item" href="./arveo/archive.html">archive (older versions)</a></li>
+                                <li class="submenu submenu-md dropstart">
+                                    <a class="dropdown-item dropdown-toggle" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false" 
+                                    onclick="event.stopPropagation();">
+                                    Sub Menu
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item">Sub item 1</a></li>
+                                    <li><a class="dropdown-item">Sub item 2</a></li>
+                                    <li><a class="dropdown-item">Sub item 3</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item">Sub item 4</a></li>
+                                </ul>
                                 <div class="dropdown-divider"></div>
-                                <div class="dropdown-header">Archive (older versions)</div>
-                                <li><a class="dropdown-item" href="./arveo/archive.html">arveo - Content Services Platform</a></li>
-                                <li><a class="dropdown-item" href="./eql/archive.html">EQL (EITCO Query Language)</a></li>
-                                <li><a class="dropdown-item" href="./audit-service/archive.html">Audit Service</a></li>
-                                <li><a class="dropdown-item" href="./document-conversion-service/archive.html">Document Conversion</a></li>
-                                <li><a class="dropdown-item" href="./job-service/archive.html">Job Service</a></li>
-                                <li><a class="dropdown-item" href="./integration-service/archive.html">Integration Service</a></li>
+                                <div class="dropdown-header">EQL (EITCO Query Language)</div>
+                                <li class="submenu submenu-md dropstart">
+                                    <a class="dropdown-item dropdown-toggle" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false" 
+                                    onclick="event.stopPropagation();">
+                                    Sub Menu
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item">Sub item 1</a></li>
+                                    <li><a class="dropdown-item">Sub item 2</a></li>
+                                    <li><a class="dropdown-item">Sub item 3</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item">Sub item 4</a></li>
+                                </ul>
+
+                                
+                                <li><a class="dropdown-item" href="/#">development version</a></li>
+                                <li><a class="dropdown-item" href="/#">archive (older versions)</a></li>
                             </li>
                             </ul>
                         </li>
@@ -52,7 +76,7 @@
         <!-- Header-->
         <header class="py-5">
             <div class="container px-lg-5">
-                <div class="p-4 p-lg-5 bg-light rounded-3 text-center" style="background: url(arveo-landing-page/assets/EITCO_netzlinien_petrol_klein.png) center top / cover no-repeat" >
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center" style="background: url(arveo-landing-page/assets/EITCO_netzlinien_petrol_gross.png) center top / cover no-repeat" >
                     <div class="m-4 m-lg-5">
                         <img src="arveo-landing-page/assets/arveo_logo_transparent.png">
                         <!--<h1 class="display-5 fw-bold" style="color: aliceblue;">Get started with arveo</h1>-->
@@ -70,7 +94,7 @@
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="./arveo/latest/index.html">
+                                <a href="/arveo/latest/index.html">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
                                         <i class="bi bi-collection"></i>
                                     </div>
@@ -83,7 +107,7 @@
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="./eql/latest/index.htm">
+                                <a href="/integration-service/latest/index.htm">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
                                         <i class="bi bi-cloud-download"></i>
                                     </div>
@@ -96,9 +120,7 @@
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="./audit-service/latest/index.htm">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
                                 <h2 class="fs-4 fw-bold">Audit Service</h2>
                                 <p class="mb-0">The Audit Service for database auditing.</p>
                             </div>
@@ -107,20 +129,17 @@
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="./document-conversion-service/latest/index.htm">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
-                                </a>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
                                 <h2 class="fs-4 fw-bold">Document Conversion Service</h2>
-                                <p class="mb-0">The EITCO Document Conversion Service is a microservice capable of converting different document formats and extracting full text of a document.</p>
+                                <p class="mb-0">The EITCO Document Conversion Service is a microservice capable of converting different document formats and extracting full text of a document.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="./job-service/latest/index.htm">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
-                                </a>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
                                 <h2 class="fs-4 fw-bold">Job Service</h2>
                                 <p class="mb-0">Here you can find documentation about the EITCO Job Service.</p>
                             </div>
@@ -129,9 +148,7 @@
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="./integration-service/latest/index.htm">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
-                                </a>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
                                 <h2 class="fs-4 fw-bold">Integration Service</h2>
                                 <p class="mb-0">The Enterprise Integration Service is a Spring Service based on the Apache Camel framework.</p>
                             </div>
